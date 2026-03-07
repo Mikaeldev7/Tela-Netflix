@@ -1,0 +1,79 @@
+/* CONFIGURAÇÃO DO CORPO DO SITE*/
+body{
+    height: 97vh;
+    background-image: url("netflixtela.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+/*CONFIGURAÇÃO DO CONTEÚDO INICIAL*/
+.Nomenetflix{
+    color:#E50914;
+    font-family: sans-serif;
+    display: flex;
+}
+.tela{
+    display:block;
+    text-align: center;
+}
+.Botaoentrar{
+    display: inline;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-items: right;
+    background-color: #E50914;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+/*CONFIGURAÇÃO DO MAIN*/
+.conteudomain{
+    display: flex;
+    text-align: center;
+    justify-items: center;
+}
+.titulomain{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+
+}
+.paragrafomain1{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size:20px ;
+    text-align:center;
+    
+}
+.paragrafomain{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+.caixa{
+    display:flex;
+    justify-content: center;
+}
+.caixaemail{
+    display:inline;
+    background-color: rgba(0, 0, 0, 0.233); 
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.linkmain{
+    background-color: #E50914;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding:10px;
+    margin: 10px;
+
+}
