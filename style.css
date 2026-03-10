@@ -11,10 +11,16 @@ body{
     color:#E50914;
     font-family: sans-serif;
     display: flex;
+    margin: 10px 115px 14px 10px;;
+    
 }
 .tela{
-    display:block;
+    display:inline;
     text-align: center;
+}
+.botaoinicio{
+    display: flex;
+    justify-content: right;
 }
 .Botaoentrar{
     display: inline;
@@ -61,6 +67,7 @@ body{
 }
 .caixaemail{
     display:inline;
+    color: white;
     background-color: rgba(0, 0, 0, 0.233); 
     text-align: center;
     justify-content: center;
@@ -68,6 +75,8 @@ body{
     
 }
 .linkmain{
+    display:flex;
+    justify-items: center;
     background-color: #E50914;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
