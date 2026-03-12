@@ -28,6 +28,7 @@ body{
 
 /* configuração main*/
 .conteudomain{
+    margin-top: 100px;
     color: white;
     font-family:'NetflixSans-Rg', Arial, Helvetica, sans-serif ;
     
@@ -38,28 +39,31 @@ body{
 
 }
 .paragrafomain{
+    margin-left: -200px;
     text-align: center;
-    margin-left: -320px;
     color:#636363 ;
     font-size:20px ;
     font-weight: 600;
+    justify-items: left;
 }
 
 .formulario{
-     text-align: center;
+    display: block;
+    text-align: center;
 }
 
 .caixa{
+    display: inline;
     width: 350px;
     padding: 18px;
     font-size: 16px;
     color: white;
     background-color: rgba(0, 0, 0, 0.6); 
-    text-align: left;
     border: 1px solid #8c8c8c;
-    border-radius: 5px;
+    border-radius: 5px;    
 }
 .btncontinuar{
+    display:inline;
     justify-items: center;
     background-color: #E50914;
     color: white;
@@ -70,4 +74,5 @@ body{
     font-size: 20px;
     font-weight: bold;
     border-radius:5px;
+    
 }
