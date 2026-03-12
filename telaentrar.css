@@ -1,7 +1,73 @@
+@import url(fontes/NetflixSans-Bd.ttf);
+@import url(fontes/NetflixSans-BdIt.ttf);
+@import url(fontes/NetflixSans-Blk.ttf);
+@import url(fontes/NetflixSans-BlkIt.ttf);
+@import url(fontes/NetflixSans-It.ttf);
+@import url(fontes/NetflixSans-Lt.ttf);
+@import url(fontes/NetflixSans-LtIt.ttf);
+@import url(fontes/NetflixSans-Md.ttf);
+@import url(fontes/NetflixSans-MdIt.ttf);
+@import url(fontes/NetflixSans-Rg.ttf);
+@import url(fontes/NetflixSans-Th.ttf);
+@import url(fontes/NetflixSans-ThIt.ttf);
+/* CONFIGURAÇÃO DO CORPO DO SITE*/
 body{
     height: 100vh;
     background-image:url(imagem/fundogradiente.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+/* configuração titulo*/
+.titulonetflix{
+    color: #E50914;
+    font-family:'NetflixSans-Md', Arial, Helvetica, sans-serif ;
+    margin: 40px 10px 10px 40px;
+}
+
+/* configuração main*/
+.conteudomain{
+    color: white;
+    font-family:'NetflixSans-Rg', Arial, Helvetica, sans-serif ;
+    
+}
+.titulomain{
+    text-align: center;
+    font-family:'NetflixSans-Rg', Arial, Helvetica, sans-serif ;
+
+}
+.paragrafomain{
+    text-align: center;
+    margin-left: -320px;
+    color:#636363 ;
+    font-size:20px ;
+    font-weight: 600;
+}
+
+.formulario{
+     text-align: center;
+}
+
+.caixa{
+    width: 350px;
+    padding: 18px;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6); 
+    text-align: left;
+    border: 1px solid #8c8c8c;
+    border-radius: 5px;
+}
+.btncontinuar{
+    justify-items: center;
+    background-color: #E50914;
+    color: white;
+    border: none;
+    font-weight: bold;
+    text-decoration: none;
+    padding:17px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius:5px;
 }
