@@ -1,6 +1,18 @@
+@import url(fontes/NetflixSans-Bd.ttf);
+@import url(fontes/NetflixSans-BdIt.ttf);
+@import url(fontes/NetflixSans-Blk.ttf);
+@import url(fontes/NetflixSans-BlkIt.ttf);
+@import url(fontes/NetflixSans-It.ttf);
+@import url(fontes/NetflixSans-Lt.ttf);
+@import url(fontes/NetflixSans-LtIt.ttf);
+@import url(fontes/NetflixSans-Md.ttf);
+@import url(fontes/NetflixSans-MdIt.ttf);
+@import url(fontes/NetflixSans-Rg.ttf);
+@import url(fontes/NetflixSans-Th.ttf);
+@import url(fontes/NetflixSans-ThIt.ttf);
 /* CONFIGURAÇÃO DO CORPO DO SITE*/
 body{
-    height: 97vh;
+    height: 92vh;
     background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ,url("netflixtela.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,10 +20,11 @@ body{
 }
 /*CONFIGURAÇÃO DO CONTEÚDO INICIAL*/
 .Nomenetflix{
+    display: flex;
     color:#E50914;
     font-family: sans-serif;
     display: flex;
-    margin: 40px auto 14px auto;
+    margin: 40px 30px 14px 30px;
     font-size:40px ;
     
 }
@@ -23,7 +36,7 @@ body{
     display: flex;
     justify-content: right;
     margin-top: -60px ;
-    margin-right: 150px;
+    margin-right: 90px;
     
 }
 .Botaoentrar{
@@ -46,23 +59,25 @@ body{
 }
 .titulomain{
     color: white;
-    font-family: sans-serif;
-    font-weight: bold;
+    font-family:'NetflixSans-Blk', sans-serif;
+    font-weight: bolder;
     font-size: 50px;
     text-align: center;
 
 }
 .paragrafomain1{
     color: white;
-    font-family: sans-serif;
-    font-weight: 600;
+    font-family:'NetflixSans-Md', sans-serif;
+    font-weight:600;
     font-size:20px ;
     text-align:center;
+    margin: 10px 10px;
+    padding: 20px 10px;
     
 }
 .paragrafomain{
     color: white;
-    font-family: sans-serif;
+    font-family:'NetflixSans-Rg', sans-serif;
     text-align: center;
 }
 .caixa{
@@ -97,7 +112,7 @@ body{
     border-radius:5px;
 
 }
-.botao-vamos-la:hover{
+.botaolink:hover{
     color: #c11119;
 
 }
