@@ -76,3 +76,11 @@ body{
     border-radius:5px;
     
 }
+.btncontinuar a {
+    color: white;
+    text-decoration: none;
+    
+}
+.btncontinuar a:hover{
+  background-color: #E50914;
+}
